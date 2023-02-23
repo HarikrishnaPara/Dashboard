@@ -80,12 +80,12 @@ public class tables extends StartBrowser {
 		//String query1 = "INSERT INTO projectinfo (ClientID,ClientName,ProjectName) values" + "('" +clientID+"'"+ "," + "'" +clientName+ "'" + "," + "'" +projectName+ "');" ;
 	  	//stmt.executeUpdate(query1);	
 		String query1 = "INSERT INTO projectinfo (ClientID,ClientName,ProjectName) values" + "(" +uuid+ "," + "'" +clientName+ "'" + "," + "'" +projectName+ "');" ;
-		//stmt.executeUpdate(query1);
+		stmt.executeUpdate(query1);
 		System.out.println(query1);
 							/////testcaseinfo table//////
 	  	String query2 = "INSERT INTO testcaseinfo (ProjectID,ProjectName,SprintName,PassedTestCaseCount,FailedTestCaseCount,SkippedTestCaseCount,TotalTestCaseCount) values" + "('" +projectId+ "'" + "," + "'" +projectName+ "'" +  "," + "'" +sprintName+ "'" +  "," + "'" +Pass_testCase_count+ "'" + "," + "'" +Fail_testcase_count+ "'" + "," + "'" +Skip_testcase_count+ "'" + ","+ "'" +Total_TCcount+ "');" ;
 	  	
-	  	//stmt.executeUpdate(query2);
+	  	stmt.executeUpdate(query2);
 	  	System.out.println(query2);
 	  	//select * from dashboard.projectinfo natural join dashboard.tccount;
 }}
