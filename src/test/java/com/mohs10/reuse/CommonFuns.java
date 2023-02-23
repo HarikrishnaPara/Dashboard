@@ -26,15 +26,15 @@ import com.mohs10.or.HomePage;
 				{
 					StartBrowser.childTest = StartBrowser.parentTest.createNode("Register in DemoWeb shop");
 					aDriver.navigateToApplication("http://demowebshop.tricentis.com/");
-					aDriver.click(HomePage.lnkRegister, "Register link");
-					aDriver.click(HomePage.rbGender, "Radio button Gender");
-					aDriver.type(HomePage.txtFirstname,  Firstname, "FirstName text box");
-					aDriver.type(HomePage.txtLastname, Lastname, "LastName text box");
-					aDriver.type(HomePage.txtEmail, Email, "Email text box");
-					aDriver.type(HomePage.txtPassword, Pwd, "password text box");
-					aDriver.type(HomePage.txtConfirmpassword, ConfirmPwd, "confirm password text box");
-					aDriver.click(HomePage.btnRegister, "Register button");
-					aDriver.click(HomePage.btnContinue, "Continue button");
+//					aDriver.click(HomePage.lnkRegister, "Register link");
+//					aDriver.click(HomePage.rbGender, "Radio button Gender");
+//					aDriver.type(HomePage.txtFirstname,  Firstname, "FirstName text box");
+//					aDriver.type(HomePage.txtLastname, Lastname, "LastName text box");
+//					aDriver.type(HomePage.txtEmail, Email, "Email text box");
+//					aDriver.type(HomePage.txtPassword, Pwd, "password text box");
+//					aDriver.type(HomePage.txtConfirmpassword, ConfirmPwd, "confirm password text box");
+//					aDriver.click(HomePage.btnRegister, "Register button");
+//					aDriver.click(HomePage.btnContinue, "Continue button");
 				}
 				
 			//Login process
@@ -82,7 +82,7 @@ import com.mohs10.or.HomePage;
 		  {
 			StartBrowser.childTest = StartBrowser.parentTest.createNode("News button");
 			aDriver.navigateToApplication("http://demowebshop.tricentis.com/");
-			aDriver.click(HomePage.btnNews, "Performed click operation on News button");
+			//aDriver.click(HomePage.btnNews, "Performed click operation on News button");
 		  }
 		  
 		  //Blog Link
@@ -90,23 +90,23 @@ import com.mohs10.or.HomePage;
 			{
 				StartBrowser.childTest = StartBrowser.parentTest.createNode("Blog buttton");
 				aDriver.navigateToApplication("http://demowebshop.tricentis.com/");
-				aDriver.click(HomePage.btnBlog, "Performed click operation on Blog button");
+				//aDriver.click(HomePage.btnBlog, "Performed click operation on Blog button");
 			}
 			
 		  //Categories
-		  public void Categories() throws Exception 
-		  {
-			  	StartBrowser.childTest = StartBrowser.parentTest.createNode("Category links");
-				aDriver.navigateToApplication("http://demowebshop.tricentis.com/");
-				aDriver.click(HomePage.lnkBooks, "Performed click operation on books link");
-				aDriver.click(HomePage.lnkComputer,"Performed click operation on Computer Link");
-				aDriver.click(HomePage.lnkElectronics,"Performed click operation on Electronics Link");
-				aDriver.click(HomePage.lnkApparelandShoes,"Performed click operation on Apparel and Shoes Link");
-				aDriver.click(HomePage.lnkDigitaldownloads,"Performed click operation on Digital Downloads Link");
-				aDriver.click(HomePage.lnkJewelry,"Performed click operation on Jewelry Link");
-				aDriver.click(HomePage.lnkGiftCards,"Performed click operation on Gift Cards Link");
-			
+		 // public void Categories() throws Exception 
+//		  {
+//			  	StartBrowser.childTest = StartBrowser.parentTest.createNode("Category links");
+//				aDriver.navigateToApplication("http://demowebshop.tricentis.com/");
+//				aDriver.click(HomePage.lnkBooks, "Performed click operation on books link");
+//				aDriver.click(HomePage.lnkComputer,"Performed click operation on Computer Link");
+//				aDriver.click(HomePage.lnkElectronics,"Performed click operation on Electronics Link");
+//				aDriver.click(HomePage.lnkApparelandShoes,"Performed click operation on Apparel and Shoes Link");
+//				aDriver.click(HomePage.lnkDigitaldownloads,"Performed click operation on Digital Downloads Link");
+//				aDriver.click(HomePage.lnkJewelry,"Performed click operation on Jewelry Link");
+//				aDriver.click(HomePage.lnkGiftCards,"Performed click operation on Gift Cards Link");
+//			
 			  
 		  }
-	}
+	
 

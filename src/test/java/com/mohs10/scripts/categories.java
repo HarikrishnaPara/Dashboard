@@ -20,7 +20,7 @@ import com.mohs10.reuse.CommonFuns;
 				
 			            
 			            hm2.logIn("harikrishnapara123@gmail.com", "DCA@123");
-			            hm2.Categories();
+			           // hm2.Categories();
 			            
 			            hm2.logout();
 			        
