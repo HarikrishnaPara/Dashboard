@@ -8,7 +8,7 @@
       <class name="com.mohs10.scripts.newabtn"/>
       <class name="com.mohs10.scripts.categories"/>
       <class name="com.mohs10.Report.PDFReportTest"/> -->
-      <class name="com.mohs10.Dashboard.tables"/>
+      <class name="Dashboard.tables"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
